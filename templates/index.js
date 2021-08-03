@@ -3,10 +3,10 @@ import Icon from 'components/common/Icon';
 import ${cutFileName} from '../src/${fullFileName}';
 
 type TIconComponentProps = {
-  className: string;
-}
+  className?: string;
+};
 
-const ${formatName}: React.FunctionComponent<TIconComponentProps> = ({className}) => (
+const ${formatName}: React.FunctionComponent<TIconComponentProps> = ({ className }) => (
   <Icon className={className} file={${cutFileName}} />
 );
 
