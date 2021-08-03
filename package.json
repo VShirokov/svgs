@@ -1,0 +1,15 @@
+{
+  "name": "svgs",
+  "version": "1.0.0",
+  "description": "Icons kit builder",
+  "main": "script.js",
+  "scripts": {
+    "build": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Shirokov",
+  "license": "MIT",
+  "dependencies": {
+    "case-anything": "^1.1.3"
+  }
+}
